@@ -4,4 +4,5 @@
 :)
 # made by jfryhng812(寒晴小弟)
 ![](images/new_icon.ico)
+<p><a href="https://jfryhng812.github.io"><b>網站連結</b></a><p>
 <p>$$WOW$$</p>
