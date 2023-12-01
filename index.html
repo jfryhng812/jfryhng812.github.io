@@ -1,83 +1,88 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="HTML,jfryhng812,jfryhng812.github.io">
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>黃品傑ㄉ簡介網站(sus)</title>
     <link rel="shortcut icon" href="images/new_icon.ico"/>
     <link rel="bookmark" href="images/new_icon.ico"/>
-    <style>
-     body {
-      margin: 0;
-      font-family:'Comic Sans MS';
-     }
-     .topnav {
-      overflow: hidden;
-      background-color: #000;
-     }
-     .topnav a {
-      float: left;
-      color: #00ff00;
-      text-align: center;
-      padding: 10px 10px;
-      text-decoration: none;
-      font-size: 24px;
-     }
-     .topnav a:hover {
-      background-color: #0ff;
-      color: red;
-     }
-     .topnav a.active {
-      background-color: #00f;
-      color: yellow;
-     }
-    </style>
-  </head>
-  <body style="background-color: rgb(15,15,31);">
-  <header>
-    <div class="topnav">
-      <a class="active" href="./"><b>首頁</b></a>
-      <a href="./about"><b>關於我</b></a>
-      <a href="./picture"><b>照片</b></a>
-      <a href="./link"><b>其他有用的連結</b></a>
-      <a href="https://www.youtube.com/watch?v=vKB2Lg-IM3I&t=3" target="_blank"><b>酷酷ㄉ東西(?)</b></a>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <button class="menu">&#9776;</button>
+    <nav>
+    <ul>
+        <li><a href="#home"><b>首頁</b></a></li>
+        <li><a href="./about"><b>關於我</b></a></li>
+        <li><a href="./gallery"><b>畫廊</b></a></li>
+        <li><a href="#link"><b>其他有用的連結</b></a></li>
+        <li><a href="https://www.youtube.com/watch?v=vKB2Lg-IM3I&t=3" target="_blank"><b>酷酷ㄉ東西(?)</b></a></li>                  
+    </ul>
+    </nav>  
+    </header>   
+    <main>
+
+    <section class="news" id="home">
+    <h2>Welcome to jfryhng812.github.io~</h2>
+    <p>這邊介紹"黃品傑"的相關資訊 :)</p>
+    </section>
+
+    <section class="slogan">
+    <blockquote><b>" 嚴選天然食材，精湛匠心烘培，<br>讓幸福在每口麵包中的香氣中蔓延 "</b></blockquote>
+    </section>
+    
+    <section class="shop">
+    <img src="images/shop.png" alt="烘培工坊大安店">
+    <div class="info">
+    <h2>8月1日大安旗艦店隆重開張！</h2>
+    <p>享受花園庭院的悠閒時光，內用座位區美食相伴，<br>
+       即日起來店消費加 LINE 好友可獲精緻小點心，等您一同品味！</p>
     </div>
-    <img
-      src="images/icon_inverted.png"
-      alt="icon_inverted.png"
-      style="object-fit:cover;
-             object-position:bottom;
-	     height:50%;
-             width:100%;
-             border: solid 5px #ffffff"
-      title="寒晴小弟">
-  </header>
-  <section>
-    <div align="center">
-    <font color="ffffff">
-      <h1 style="font-size:250%;font-family:'Comic Sans MS';">資工一2 黃品傑 個人簡介<h1>
-    </font>
-    </div>
-    <font color="ffff00">
-      <h1>1411232070 黃品傑 <h1>
-    </font>
-  </section>
-  <section>
-    <div align="center">
-    <font color="ffffff">
-      <h1 style="font-size:100%;font-family:'Comic Sans MS';">Text here...<h1>
-    </font>
-    </div>
-    <font color="ffff00">
-      <h1>???<h1>
-    </font>
-  </section>
-  <footer>
-    <div align="center">
-       <font color="cccccc">
-      <h4>@jfryhng812.github.io<h4>
-    </font>
-    </div>
-  </footer>
-  </body>
+    </section>
+
+    <section class="product">
+        <div>
+            <img src="images/p1.png" alt="巴黎風法國土司">
+            <h3>巴黎風法國土司</h3>
+            <p>外皮金黃酥脆，內質鬆軟<br>讓您體驗法式浪漫的味覺享受</p>
+        </div>
+        <div>
+            <img src="images/p2.png" alt="皇家奶油可頌麵包">
+            <h3>皇家奶油可頌麵包</h3>
+            <p>酥脆口感搭配奶油的濃郁香氣<br>品嘗簡單而純粹的美味</p>
+        </div>
+        <div>
+            <img src="images/p3.png" alt="健康營養全麥土司">
+            <h3>健康營養全麥土司</h3>
+            <p>全麥製成，口感柔韌紮實<br>天然養分健康首選</p>
+        </div>
+    </section>
+    <section class="link" id="link">
+      <h2 style="font-size:max(5vw,80px)"><b>相關連結</b></h2>
+      <h2 style="font-size:375%"><a href="https://www.youtube.com/channel/UCqZu8UMHxWKja354q-4zBFw" target="_blank">
+          <img
+           src="images/yt.png"
+           alt="yt.png"
+           style="border-radius:25%;
+                  border: 2.5px solid #000;
+                  max-height:64px;
+	          max-width:64px;"
+           title="YT頻道"></a>
+           <a href="https://github.com/jfryhng812" target="_blank">
+           <img
+           src="images/github.png"
+           alt="github.png"
+           style="border-radius:25%;
+                  border: 2.5px solid #fff;
+	          max-height:64px;
+	          max-width:64px;"
+           title="github"></a>
+         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">🎙👞</a></h2>
+    </section>
+    </main>
+    <footer>
+        <p>©jfryhng812.github.io</p>
+    </footer>
+</body>
 </html>
