@@ -1,0 +1,209 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color: #000000;
+    font-family:'Comic Sans MS';
+}
+
+header {
+    background-color:rgba(0,0,15,0.875);
+    height:80px;
+    width:100%;
+    position:fixed;    
+}
+header nav {
+      overflow: hidden;
+      background-color: #000;
+     }
+header nav a {
+      float: left;
+      color: #00ffff;
+      text-align: center;
+      padding: 0px 20px;
+      text-decoration: none;
+      font-size:min(3.25vw,30px);
+     }
+header nav a:hover {
+      background-color: #0ff;
+      text-decoration: none;
+      color: red;
+     }
+
+h1 {
+    color:white;
+    position:absolute;
+    left:120px;
+    top:0;
+    line-height: 80px;
+    background-position: center;
+    width:210px;
+    text-indent: -9999px; 
+}
+
+header ul {
+    position:absolute;
+    top:0;
+    line-height:80px;
+}
+header li {
+    display:inline;  
+}
+
+.news {
+    background-color:#000;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    height:60vh;
+    background-image: url("images/icon_inverted.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+} 
+.news h2 {
+    font-size:min(5vw,100px);
+    margin-top:60px;
+} 
+.news p {
+    color:#fff;
+    font-size:25px;
+    margin:25px 0;
+}
+
+.slogan {
+    background-color:#003;
+    color:red;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 1.8em;  
+}
+
+.shop {
+    display:flex;
+}
+.shop img {
+    width:50%;
+}
+
+.info {
+    width:50%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2 {
+    font-size:max(2.5vw,25px);
+    margin-bottom: 30px;
+}
+.info p {
+    text-align: center;
+    line-height: 2em;
+}
+
+.product {
+    display:flex;
+    background-color: #ede9db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+.product div {
+    width:300px;
+    text-align:center;
+}
+.product img {
+    width:100%;
+    border-radius: 10px;;
+}
+.product h3 {
+    font-size: 20px;    
+    margin: 20px 0;
+}
+.product p {
+    font-size:14px;
+    line-height: 1.6em;
+}
+
+.link {
+    background-color: #000;
+    color:transparent;
+    -webkit-text-stroke: 2px #000;
+    background-image: url("images/eva.png");
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.link h2 {
+   margin:20px 20px;
+}
+
+footer {
+    background-color:#000000;
+    color:#B7B7B7;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.menu {
+    display:none;
+}
+/* 響應式設計語法 */
+@media screen and (max-width: 705px) {
+header ul {
+    display:none;
+}
+header h1 {
+    left:50%;
+    transform: translateX(-50%);
+}
+.menu {
+    display:block;
+    background-color: transparent;
+    color:white;
+    font-size: 35px;
+    position:absolute;
+    top:15px;
+    left:20px;
+    border:none;
+    cursor: pointer;
+}
+.shop {
+    flex-direction: column;
+}
+.shop img {
+    width:100%;
+}
+.info {
+    width:100%;
+    padding:40px 0;
+}
+.info h2 {
+    font-size:30px;
+}
+.product {
+    flex-direction: column;
+    padding: 60px 0;
+}
+.product div {
+    margin-bottom: 30px;
+}
+}
